@@ -159,6 +159,7 @@
     flex-direction: column;
     text-align: center;
     margin-top: 20px;
+    
    
 }
 .subscribe{
@@ -176,6 +177,7 @@ form{
     margin: 0px auto;
     padding-top: 75px;
     min-height: 400px;
+    
 
 }
 .email{
@@ -202,9 +204,20 @@ form{
 
 
 /* last section for menue */
-/* .section_find_us{
+.section_find_us{
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    gap: 20px;
+
    
-} */
+}
+.section_find_us img{
+    width: calc(50% - 10px);
+    object-fit: cover;
+
+}
+.section_find_us .content{
+    align-self: center;
+    align-items: center;
+    width: calc(50% - 10px);
+}
